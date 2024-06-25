@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .primaryContainer {
+    @apply 2xl:max-w-7xl xl:max-w-6xl lg:max-w-5xl md:max-w-3xl px-4 mx-auto;
+  }
+
+  .displayCountry {
+    @apply grid object-fill grid-cols-1 px-10 mt-4 mb-6 
+            sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-8 gap-y-10;
+  }
+
+  .countryDetails {
+    @apply flex flex-col gap-2.5 font-500 md:mt-6 md:mr-4
+            sm:w-1/2;
+  }
+
+  .inputField {
+    @apply py-4 px-6 flex items-center gap-3 md:gap-5 bg-white font-600 max-w-full w-1/2 md:w-2/5 rounded-md
+            appearance-none;
+  }
+
+  .backBtn {
+    @apply flex items-center gap-3 px-8 py-2 mt-10 mb-16 
+            rounded-md w-fit  
+            text-md font-600 bg-white dark:bg-dark-blue dark:text-white text-very-dark-blue-text;
+  }
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  @apply bg-very-light-gray-bg dark:bg-very-dark-blue-bg;
+  /* transition: all 0.2s; */
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
