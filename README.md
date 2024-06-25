@@ -1,4 +1,4 @@
-## A project has been successfully completed from Frontend Mentor.
+## A project has been successfully completed from frontend mentor.
 .
 
 ## Screenshots
