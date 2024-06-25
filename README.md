@@ -1,4 +1,5 @@
-## A challenge I have completed from frontend mentor challenges.
+## A project has been successfully completed from Frontend Mentor.
+.
 
 ## Screenshots
 
