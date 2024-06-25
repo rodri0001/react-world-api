@@ -3,10 +3,11 @@
 
 ## Screenshots
 
-![Screenshot](/public/design/desktop-dark.jpg)
+![Screenshot](/public/design/desktop-bluedark.jpg)
 ![Screenshot](/public/design/desktop-light.jpg)
-![Screenshot](/public/design/details-dark.jpg)
-![Screenshot](/public/design/details-light.jpg)
+![Screenshot](/public/design/details-bluedark.jpg)
+![Screenshot](/public/design/details-newlight.jpg)
+![Screenshot](/public/design/mobile-design-detail-bluedark.jpg)
 
 ## Clone the repository   
 
